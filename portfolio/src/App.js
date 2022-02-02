@@ -1,8 +1,8 @@
-import {Route} from "react-router-dom"
-import Home from "./components/Home"
-import Nav from "./components/Nav"
-import Projects from "./components/Projects"
-import ContactMe from "./components/ContactMe"
+import { Route } from "react-router-dom";
+import Home from "./components/Home";
+import Nav from "./components/Nav";
+import Projects from "./components/Projects";
+import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
@@ -12,10 +12,10 @@ function App() {
         <Home />
       </Route>
       <Route path="projects">
-        <Projects/>
+        <Projects />
       </Route>
       <Route path="contact-me">
-        <ContactMe/>
+        <ContactMe />
       </Route>
     </div>
   );
